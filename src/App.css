@@ -1,38 +1,333 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Nunito Sans';
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Page1{
+    display:flex;
+    flex-direction:row;
+   height: 755px;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+}
+.WelcomeForm{
+   margin-top: 250px;
+    text-align: center;
+    width:600px;
+    margin-left: 120px;
+    font-family: 'Nunito Sans';
+font-style: normal;
   }
+.WelcomeForm>h4{
+width: 567px;
+height: 44px;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+color: #030037;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.WelcomeForm>p{
+width: 567px;
+height: 20px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #686687;
 }
-
-.App-link {
-  color: #61dafb;
+.WelcomeForm>Button{
+    border-radius: 8px;}
+.WelcomeRight{
+    background-color: #1334B3;
+    margin-left: 125px;
 }
+.WelcomeRight>h4{
+color: white;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+width: 556px;
+height: 44px;
+margin-left: 270px;
+letter-spacing: -0.005em;
+}
+.WelcomeRight>p{
+    width: 713px;
+height: 44px;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.005em;
+color: #F8F9FD;
+margin-left: 170px;
+}
+.VerticalMenu{
+background-color: white;
+width: 250px;
+height: 730px;
+box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+}
+.VerticalMenu>Button:active{
+    background-color: #153AC7;
+    color: white;
+    border-radius: 5px;
+    text-align: Left;
+    width: 200px;
+}
+.VerticalMenu>h3{
+    width: 144px;
+    height: 24px;
+     font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+   display: flex;
+    align-items: center;
+    color: #233244;
+}
+.VerticalMenu>h4{
+    width: 304px;
+height: 19px;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+color: #B8BABC;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.VerticalMenu>Button:active{
+    background-color:  #153AC7;
+}
+.CreateProfile{
+    background-color: white;
+    font-family: 'Nunito Sans';
+font-style: normal;
+margin-left: 10px;
+height: 590px;
+width: 100%;
+
+}
+.CreateProfile>h6{
+    width: 1496px;
+height: 24px;
+
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #030037;
+margin-left: 10px;
+margin-top: 20px;
+}
+.CreateProfile>p{
+    width: 1496px;
+height: 20px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;letter-spacing: 0.0025em;
+color: #686687;
+margin-left: 10px;
+
+}
+.CreateProfile>Input{
+    width: 738px;
+height: 48px;
+}
+.PaymentSetup{
+    background-color: white;
+    font-family: 'Nunito Sans';
+font-style: normal;
+margin-left: 10px;
+height: 590px;
+width: 100%;
+
+}
+.PaymentSetup>h6{
+    width: 1496px;
+    height: 24px;
+   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #030037;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.PaymentSetup>p{
+    width: 1496px;
+height: 20px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.0025em;
+color: #686687;
+margin-left: 50px;
+
+}
+.ThemeSetup{
+    background-color: white;
+    font-family: 'Nunito Sans';
+font-style: normal;
+margin-left: 10px;
+height: 590px;
+width: 100%;
+}
+.ThemeSetup>h6{
+    width: 1496px;
+    height: 24px;
+   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #030037;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.ThemeSetup>p{
+    width: 1496px;
+height: 20px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.0025em;
+color: #686687;
+margin-left: 50px;
+
+}
+.ModuleSetup{
+    background-color: white;
+    font-family: 'Nunito Sans';
+font-style: normal;
+margin-left: 10px;
+height: 590px;
+width: 100%;
+}
+.ModuleSetup>h6{
+    width: 1496px;
+    height: 24px;
+   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #030037;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.ModuleSetup>p{
+    width: 1496px;
+height: 20px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.0025em;
+color: #686687;
+margin-left: 50px;
+
+}
+.b1{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    border-radius: 5px;
+    text-align: left;
+    height: 50px;
+    margin-left: -10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #030037;
+}
+.b1:focus{
+    color: white;
+    background-color: #153AC7;
+    
+}
+.Dailytask{
+    background-color: white;
+    font-family: 'Nunito Sans';
+font-style: normal;
+}
+.DailyHeader{
+   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #030037;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.DailyData{
+    width: 340px;
+height: 20px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.0025em;
+color: #686687;
+margin-left: 50px;
+
+}
+.Success{
+    background-color:  #F5F5F5;
+   
+font-family: 'Nunito Sans';
+font-style: normal;
+margin-left: 10px;
+}
+.Success>h3{
+    width: 304px;
+    height: 24px;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #030037;
+margin-left: 50px;
+margin-top: 20px;
+}
+.Card1{
+    font-family: 'Nunito Sans';
+font-style: normal;
+background-color:  #F5F5F5;
+}
+.AddClient{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    background-color:  #F5F5F5;
+    margin-left: 20px;
+    margin-top: 10px;
+    width:100%;
+}
+.AddClientHeader{
+    height: 5px;
+width: 122px;
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+color: #030037;
+
+
+}
+.ViewClient{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    background-color:  #F5F5F5;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    width:100%;
+
+}
+.ViewClientHeader{
+    height: 5px;
+    width: 152px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    color: #030037;
+    
+}
+.Table1{
+    width: 82%;
+   background-color: white;
 }
